@@ -2,10 +2,10 @@ package com.hendisantika.kotlinspringbootrestapidemo.controller
 
 import com.hendisantika.kotlinspringbootrestapidemo.model.Article
 import com.hendisantika.kotlinspringbootrestapidemo.repository.ArticleRepository
+import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import javax.validation.Valid
 
 /**
  * Created by IntelliJ IDEA.
